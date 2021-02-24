@@ -1,4 +1,6 @@
-package com.shop.quick.member;
+package com.shop.quick.member.repository;
+
+import com.shop.quick.member.entity.Member;
 
 import java.util.Map;
 import java.util.HashMap;

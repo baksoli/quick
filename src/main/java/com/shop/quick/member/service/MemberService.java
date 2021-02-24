@@ -1,4 +1,6 @@
-package com.shop.quick.member;
+package com.shop.quick.member.service;
+
+import com.shop.quick.member.entity.Member;
 
 public interface MemberService {
     void join(Member member);

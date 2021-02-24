@@ -1,4 +1,4 @@
-package com.shop.quick.member;
+package com.shop.quick.member.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

@@ -1,4 +1,4 @@
-package com.shop.quick.member;
+package com.shop.quick.member.entity;
 
 public enum Grade {
     BASIC,
