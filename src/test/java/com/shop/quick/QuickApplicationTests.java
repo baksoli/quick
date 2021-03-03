@@ -2,6 +2,7 @@ package com.shop.quick;
 
 import com.shop.quick.member.entity.Grade;
 import com.shop.quick.member.entity.Member;
+import com.shop.quick.member.repository.MemberRepository;
 import com.shop.quick.member.service.MemberService;
 import com.shop.quick.member.service.MemberServiceImpl;
 import org.assertj.core.api.Assertions;
@@ -11,7 +12,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class QuickApplicationTests {
 
-	MemberService memberService = new MemberServiceImpl();
+	MemberService memberService;
 
 	@Test
 	void join() {
